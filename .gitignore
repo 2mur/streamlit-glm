@@ -1,0 +1,10 @@
+*.csv
+scraper.py
+.venv
+2025-clean-datasets
+2025-datasets
+listings
+2025-listings
+urls
+montreal_regions.geojson
+query.py

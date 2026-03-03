@@ -1,0 +1,556 @@
+{
+    "metadata": {
+        "rows_2025": 8079,
+        "rows_2026": 3719
+    },
+    "performance": {
+        "2025": {
+            "mae": 304911.3900189208,
+            "r2": 0.3948630108584279
+        },
+        "2026": {
+            "mae": 301075.5273045224,
+            "r2": 0.19286496842182888
+        }
+    },
+    "effect_sizes_percentage": {
+        "2025": {
+            "Intercept": 1657902.5367187634,
+            "C(category)[T.5plex]": 3.858523656221835,
+            "C(category)[T.condominium-houses]": 1711.1789497731522,
+            "C(category)[T.condos]": -7.436329748404058,
+            "C(category)[T.duplexes]": 16.467787356080187,
+            "C(category)[T.houses]": -23.340128651260528,
+            "C(category)[T.land]": 9346.890628629348,
+            "C(category)[T.lots]": 4428.651028158017,
+            "C(category)[T.triplexes]": 30.466571284668742,
+            "C(inferred_region)[T.Anjou]": -15.842987426068667,
+            "C(inferred_region)[T.Baie-D'Urf\u00e9]": 46.46725312200548,
+            "C(inferred_region)[T.Beaconsfield]": -3.3409153787941737,
+            "C(inferred_region)[T.C\u00f4te-Saint-Luc]": 1.9227026618018783,
+            "C(inferred_region)[T.C\u00f4te-des-Neiges-Notre-Dame-de-Gr\u00e2ce]": 13.704979165677056,
+            "C(inferred_region)[T.Dollard-des-Ormeaux]": -18.637920993062828,
+            "C(inferred_region)[T.Dorval]": -3.208100014536708,
+            "C(inferred_region)[T.Hampstead]": 32.28962814501175,
+            "C(inferred_region)[T.Kirkland]": -18.914558606270894,
+            "C(inferred_region)[T.L'\u00cele-Bizard-Sainte-Genevi\u00e8ve]": -3.600998904630881,
+            "C(inferred_region)[T.L'\u00cele-Dorval]": -55.00296852624936,
+            "C(inferred_region)[T.LaSalle]": -3.643939062362056,
+            "C(inferred_region)[T.Lachine]": -17.456427146648544,
+            "C(inferred_region)[T.Le Plateau-Mont-Royal]": 33.20392739352507,
+            "C(inferred_region)[T.Le Sud-Ouest]": 17.622901467074282,
+            "C(inferred_region)[T.Mercier-Hochelaga-Maisonneuve]": -7.918987962401392,
+            "C(inferred_region)[T.Mont-Royal]": 42.73787415949857,
+            "C(inferred_region)[T.Montr\u00e9al-Est]": -32.31982647127294,
+            "C(inferred_region)[T.Montr\u00e9al-Nord]": 1.559972281201727,
+            "C(inferred_region)[T.Montr\u00e9al-Ouest]": 16.813121254048525,
+            "C(inferred_region)[T.Outremont]": 69.12979348217083,
+            "C(inferred_region)[T.Pierrefonds-Roxboro]": -15.458910280276017,
+            "C(inferred_region)[T.Pointe-Claire]": 1.1376507326697816,
+            "C(inferred_region)[T.Rivi\u00e8re-des-Prairies-Pointe-aux-Trembles]": -25.762390763107877,
+            "C(inferred_region)[T.Rosemont-La Petite-Patrie]": 11.699175985546884,
+            "C(inferred_region)[T.Saint-Laurent]": -2.3104111775506198,
+            "C(inferred_region)[T.Saint-L\u00e9onard]": -4.305173032255627,
+            "C(inferred_region)[T.Sainte-Anne-de-Bellevue]": -7.119497737109215,
+            "C(inferred_region)[T.Senneville]": 20.049556433055304,
+            "C(inferred_region)[T.Verdun]": 1.2869436853083283,
+            "C(inferred_region)[T.Ville-Marie]": 29.324088757585276,
+            "C(inferred_region)[T.Villeray-Saint-Michel-Parc-Extension]": 6.8326512174160525,
+            "C(inferred_region)[T.Westmount]": 83.43928980773403,
+            "bedrooms": 6.141267857440402,
+            "bathrooms": 40.22758289934516,
+            "log_area": 52.881107064837174,
+            "units": 9.210302755788135
+        },
+        "2026": {
+            "Intercept": 965766.8811782536,
+            "C(category)[T.5plex]": 20.713311025091684,
+            "C(category)[T.condominium-houses]": 8968.068665693061,
+            "C(category)[T.condos]": -61.768624012990145,
+            "C(category)[T.duplexes]": -63.657975446096174,
+            "C(category)[T.houses]": -43.81717302799698,
+            "C(category)[T.land]": 11004.401303550656,
+            "C(category)[T.lots]": 14204.339824556993,
+            "C(category)[T.triplexes]": -62.70603101119882,
+            "C(inferred_region)[T.Anjou]": -15.239720019623903,
+            "C(inferred_region)[T.Baie-D'Urf\u00e9]": -4.662936703425657e-13,
+            "C(inferred_region)[T.Beaconsfield]": 1.5543122344752192e-13,
+            "C(inferred_region)[T.C\u00f4te-Saint-Luc]": 0.0,
+            "C(inferred_region)[T.C\u00f4te-des-Neiges-Notre-Dame-de-Gr\u00e2ce]": 26.167447471346783,
+            "C(inferred_region)[T.Dollard-des-Ormeaux]": -3.6637359812630166e-13,
+            "C(inferred_region)[T.Dorval]": 9.547918011776346e-13,
+            "C(inferred_region)[T.Hampstead]": 3.9968028886505635e-13,
+            "C(inferred_region)[T.Kirkland]": 1.1102230246251565e-13,
+            "C(inferred_region)[T.L'\u00cele-Bizard-Sainte-Genevi\u00e8ve]": 31.99902583339389,
+            "C(inferred_region)[T.L'\u00cele-Dorval]": 4.662936703425657e-13,
+            "C(inferred_region)[T.LaSalle]": -7.605719799300459,
+            "C(inferred_region)[T.Lachine]": -9.626238932697728,
+            "C(inferred_region)[T.Le Plateau-Mont-Royal]": 37.64592158909339,
+            "C(inferred_region)[T.Le Sud-Ouest]": 17.70540271103438,
+            "C(inferred_region)[T.Mercier-Hochelaga-Maisonneuve]": -14.105644460992284,
+            "C(inferred_region)[T.Mont-Royal]": -1.1102230246251565e-14,
+            "C(inferred_region)[T.Montr\u00e9al-Est]": 4.440892098500626e-14,
+            "C(inferred_region)[T.Montr\u00e9al-Nord]": -18.343039153267693,
+            "C(inferred_region)[T.Montr\u00e9al-Ouest]": -1.1102230246251565e-14,
+            "C(inferred_region)[T.Outremont]": 123.27517385350646,
+            "C(inferred_region)[T.Pierrefonds-Roxboro]": -12.994320458914444,
+            "C(inferred_region)[T.Pointe-Claire]": 0.0,
+            "C(inferred_region)[T.Rivi\u00e8re-des-Prairies-Pointe-aux-Trembles]": -34.76362349643507,
+            "C(inferred_region)[T.Rosemont-La Petite-Patrie]": 13.087324838715663,
+            "C(inferred_region)[T.Saint-Laurent]": 13.627538214273805,
+            "C(inferred_region)[T.Saint-L\u00e9onard]": -4.193482675070026,
+            "C(inferred_region)[T.Sainte-Anne-de-Bellevue]": 0.0,
+            "C(inferred_region)[T.Senneville]": 0.0,
+            "C(inferred_region)[T.Verdun]": 47.230742110942955,
+            "C(inferred_region)[T.Ville-Marie]": 46.66620558126537,
+            "C(inferred_region)[T.Villeray-Saint-Michel-Parc-Extension]": 1.4805416403137706,
+            "C(inferred_region)[T.Westmount]": 0.0,
+            "bedrooms": 5.371367219602652,
+            "bathrooms": 19.369605832194736,
+            "log_area": 108.3837825616404,
+            "units": -27.908231608533217
+        }
+    },
+    "coefficient_drift": [
+        {
+            "feature": "C(inferred_region)[T.Westmount]",
+            "coef_2025": 0.6067135810305898,
+            "coef_2026": 0.0,
+            "delta": -0.6067135810305898,
+            "z_score": 15.621358937745741,
+            "p_value": 0.0,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Mont-Royal]",
+            "coef_2025": 0.3558397143480781,
+            "coef_2026": -1.2803601464896664e-16,
+            "delta": -0.3558397143480782,
+            "z_score": 8.165128690033955,
+            "p_value": 2.220446049250313e-16,
+            "significant": true
+        },
+        {
+            "feature": "bathrooms",
+            "coef_2025": 0.33809650891465204,
+            "coef_2026": 0.17705442504583854,
+            "delta": -0.1610420838688135,
+            "z_score": 6.289060736562478,
+            "p_value": 3.1939251243784383e-10,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Dollard-des-Ormeaux]",
+            "coef_2025": -0.20626088139165363,
+            "coef_2026": -3.692045187306574e-15,
+            "delta": 0.20626088139164994,
+            "z_score": -4.7048432206039354,
+            "p_value": 2.5406111630044137e-06,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Verdun]",
+            "coef_2025": 0.012787329351812312,
+            "coef_2026": 0.38683084436380755,
+            "delta": 0.37404351501199523,
+            "z_score": -3.8700777780946627,
+            "p_value": 0.00010880063648333049,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Hampstead]",
+            "coef_2025": 0.27982348557448156,
+            "coef_2026": 4.103207350853502e-15,
+            "delta": -0.27982348557447745,
+            "z_score": 3.869952840081716,
+            "p_value": 0.00010885640850877287,
+            "significant": true
+        },
+        {
+            "feature": "C(category)[T.condominium-houses]",
+            "coef_2025": 2.896563079699011,
+            "coef_2026": 4.507344397919113,
+            "delta": 1.6107813182201016,
+            "z_score": -3.7120182623906994,
+            "p_value": 0.00020561314768885453,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Baie-D'Urf\u00e9]",
+            "coef_2025": 0.38163168930544716,
+            "coef_2026": -4.661196696019082e-15,
+            "delta": -0.3816316893054518,
+            "z_score": 3.598830987363052,
+            "p_value": 0.00031965083678331396,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Kirkland]",
+            "coef_2025": -0.20966675523868467,
+            "coef_2026": 1.1836849901791787e-15,
+            "delta": 0.20966675523868586,
+            "z_score": -3.2984764001239,
+            "p_value": 0.0009721105122157958,
+            "significant": true
+        },
+        {
+            "feature": "log_area",
+            "coef_2025": 0.4244903553151249,
+            "coef_2026": 0.7342113020609711,
+            "delta": 0.30972094674584616,
+            "z_score": -2.7864171758827685,
+            "p_value": 0.005329423534341515,
+            "significant": true
+        },
+        {
+            "feature": "C(category)[T.triplexes]",
+            "coef_2025": 0.2659468492222327,
+            "coef_2026": -0.9863385617197261,
+            "delta": -1.2522854109419588,
+            "z_score": 2.6781447616568625,
+            "p_value": 0.007403121479397257,
+            "significant": true
+        },
+        {
+            "feature": "C(category)[T.lots]",
+            "coef_2025": 3.8130092018632666,
+            "coef_2026": 4.963148068452637,
+            "delta": 1.1501388665893701,
+            "z_score": -2.6768881963480506,
+            "p_value": 0.00743094270215372,
+            "significant": true
+        },
+        {
+            "feature": "C(category)[T.duplexes]",
+            "coef_2025": 0.15244454540226998,
+            "coef_2026": -1.0121954131270967,
+            "delta": -1.1646399585293667,
+            "z_score": 2.6487483141307107,
+            "p_value": 0.008079047363698688,
+            "significant": true
+        },
+        {
+            "feature": "C(category)[T.condos]",
+            "coef_2025": -0.07727345121383898,
+            "coef_2026": -0.961513646591359,
+            "delta": -0.88424019537752,
+            "z_score": 2.6191231652407048,
+            "p_value": 0.008815611211190122,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Outremont]",
+            "coef_2025": 0.5254962429374013,
+            "coef_2026": 0.8032347882334708,
+            "delta": 0.27773854529606956,
+            "z_score": -2.5406819724157557,
+            "p_value": 0.011063650374582457,
+            "significant": true
+        },
+        {
+            "feature": "units",
+            "coef_2025": 0.0881052204527377,
+            "coef_2026": -0.3272303175427857,
+            "delta": -0.4153355379955234,
+            "z_score": 2.5043998928254503,
+            "p_value": 0.012265931084457504,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.L'\u00cele-Bizard-Sainte-Genevi\u00e8ve]",
+            "coef_2025": -0.036674346506511434,
+            "coef_2026": 0.27762435652100054,
+            "delta": 0.31429870302751195,
+            "z_score": -2.404401946182574,
+            "p_value": 0.016198951248867166,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Montr\u00e9al-Est]",
+            "coef_2025": -0.39037690673467723,
+            "coef_2026": 3.734371715859794e-16,
+            "delta": 0.3903769067346776,
+            "z_score": -2.023055123674243,
+            "p_value": 0.043067464583801174,
+            "significant": true
+        },
+        {
+            "feature": "C(inferred_region)[T.Montr\u00e9al-Nord]",
+            "coef_2025": 0.015479297918078543,
+            "coef_2026": -0.2026431179490181,
+            "delta": -0.21812241586709663,
+            "z_score": 1.9848007138570904,
+            "p_value": 0.047166648052965776,
+            "significant": true
+        },
+        {
+            "feature": "Intercept",
+            "coef_2025": 9.715953958675307,
+            "coef_2026": 9.175611113547399,
+            "delta": -0.540342845127908,
+            "z_score": 1.9551073321515513,
+            "p_value": 0.050570403026111155,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Montr\u00e9al-Ouest]",
+            "coef_2025": 0.1554052176002659,
+            "coef_2026": -1.0958355622416573e-16,
+            "delta": -0.15540521760026602,
+            "z_score": 1.9086145450831016,
+            "p_value": 0.05631183419634511,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Ville-Marie]",
+            "coef_2025": 0.25715138373388546,
+            "coef_2026": 0.3829891084870644,
+            "delta": 0.12583772475317895,
+            "z_score": -1.879294306698808,
+            "p_value": 0.060204318657987255,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Saint-Laurent]",
+            "coef_2025": -0.023375195335584773,
+            "coef_2026": 0.12775570477951195,
+            "delta": 0.15113090011509672,
+            "z_score": -1.8276454207421942,
+            "p_value": 0.06760278433335998,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.L'\u00cele-Dorval]",
+            "coef_2025": -0.7985736656436921,
+            "coef_2026": 4.713531693050465e-15,
+            "delta": 0.7985736656436968,
+            "z_score": -1.702227060911349,
+            "p_value": 0.08871281180452129,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Rivi\u00e8re-des-Prairies-Pointe-aux-Trembles]",
+            "coef_2025": -0.2978993011955419,
+            "coef_2026": -0.4271529508021873,
+            "delta": -0.12925364960664537,
+            "z_score": 1.440347533098367,
+            "p_value": 0.14976909962952778,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.C\u00f4te-des-Neiges-Notre-Dame-de-Gr\u00e2ce]",
+            "coef_2025": 0.12843700594391436,
+            "coef_2026": 0.23243978687861322,
+            "delta": 0.10400278093469886,
+            "z_score": -1.2598022093288812,
+            "p_value": 0.20774072260069687,
+            "significant": false
+        },
+        {
+            "feature": "C(category)[T.houses]",
+            "coef_2025": -0.26579180424294135,
+            "coef_2026": -0.5765590456776234,
+            "delta": -0.31076724143468204,
+            "z_score": 1.0985703596303373,
+            "p_value": 0.2719555122590469,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Senneville]",
+            "coef_2025": 0.1827344418206606,
+            "coef_2026": 0.0,
+            "delta": -0.1827344418206606,
+            "z_score": 1.0193318082381349,
+            "p_value": 0.3080454679722664,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Sainte-Anne-de-Bellevue]",
+            "coef_2025": -0.07385644095921369,
+            "coef_2026": 0.0,
+            "delta": 0.07385644095921369,
+            "z_score": -0.9861155810113112,
+            "p_value": 0.3240763986167916,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Mercier-Hochelaga-Maisonneuve]",
+            "coef_2025": -0.08250143078344474,
+            "coef_2026": -0.15205206883080663,
+            "delta": -0.06955063804736189,
+            "z_score": 0.8519754315397778,
+            "p_value": 0.39422772829002506,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Lachine]",
+            "coef_2025": -0.19184387627444016,
+            "coef_2026": -0.10121621440199745,
+            "delta": 0.09062766187244271,
+            "z_score": -0.8082968763923438,
+            "p_value": 0.41891970026142467,
+            "significant": false
+        },
+        {
+            "feature": "C(category)[T.5plex]",
+            "coef_2025": 0.03785943757856112,
+            "coef_2026": 0.18824821793281857,
+            "delta": 0.15038878035425746,
+            "z_score": -0.7364984999777427,
+            "p_value": 0.46142738010796513,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Beaconsfield]",
+            "coef_2025": -0.03397998970490633,
+            "coef_2026": 1.5355240333738388e-15,
+            "delta": 0.03397998970490786,
+            "z_score": -0.684458536786454,
+            "p_value": 0.493685663184134,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Villeray-Saint-Michel-Parc-Extension]",
+            "coef_2025": 0.06609341682376024,
+            "coef_2026": 0.01469688613822338,
+            "delta": -0.05139653068553686,
+            "z_score": 0.5714820254225706,
+            "p_value": 0.5676729411995722,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Dorval]",
+            "coef_2025": -0.03260687304286849,
+            "coef_2026": 9.543869877027746e-15,
+            "delta": 0.03260687304287803,
+            "z_score": -0.5621825282635815,
+            "p_value": 0.573991664109262,
+            "significant": false
+        },
+        {
+            "feature": "bedrooms",
+            "coef_2025": 0.059600736482960444,
+            "coef_2026": 0.05232075495534259,
+            "delta": -0.007279981527617857,
+            "z_score": 0.4799082060506122,
+            "p_value": 0.6312926659401956,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.LaSalle]",
+            "coef_2025": -0.037119887681810314,
+            "coef_2026": -0.0791051118463291,
+            "delta": -0.04198522416451878,
+            "z_score": 0.4787592136216916,
+            "p_value": 0.6321099354279496,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Le Plateau-Mont-Royal]",
+            "coef_2025": 0.28671105661989965,
+            "coef_2026": 0.3195144163137315,
+            "delta": 0.03280335969383186,
+            "z_score": -0.415460537687281,
+            "p_value": 0.6778047978574513,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.C\u00f4te-Saint-Luc]",
+            "coef_2025": 0.019044522966537216,
+            "coef_2026": 5.2862086800888747e-17,
+            "delta": -0.019044522966537164,
+            "z_score": 0.4007016415244885,
+            "p_value": 0.6886398020895075,
+            "significant": false
+        },
+        {
+            "feature": "C(category)[T.land]",
+            "coef_2025": 4.5482707463486545,
+            "coef_2026": 4.709926636554891,
+            "delta": 0.16165589020623639,
+            "z_score": -0.32555636300871515,
+            "p_value": 0.7447600321895531,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Pierrefonds-Roxboro]",
+            "coef_2025": -0.16793250094288487,
+            "coef_2026": -0.13919678738284688,
+            "delta": 0.028735713560037984,
+            "z_score": -0.28452710044655516,
+            "p_value": 0.7760064687023107,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Pointe-Claire]",
+            "coef_2025": 0.011312281518453073,
+            "coef_2026": 0.0,
+            "delta": -0.011312281518453073,
+            "z_score": 0.25743556202939194,
+            "p_value": 0.7968425531873302,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Rosemont-La Petite-Patrie]",
+            "coef_2025": 0.11063914302804369,
+            "coef_2026": 0.12299012046207757,
+            "delta": 0.012350977434033877,
+            "z_score": -0.14388246212469966,
+            "p_value": 0.8855932847726897,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Anjou]",
+            "coef_2025": -0.17248593461147954,
+            "coef_2026": -0.1653431493799506,
+            "delta": 0.0071427852315289475,
+            "z_score": -0.04723804174249487,
+            "p_value": 0.9623235084237636,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Saint-L\u00e9onard]",
+            "coef_2025": -0.0440059436637068,
+            "coef_2026": -0.04283947279362001,
+            "delta": 0.0011664708700867832,
+            "z_score": -0.010092507915900854,
+            "p_value": 0.991947480457571,
+            "significant": false
+        },
+        {
+            "feature": "C(inferred_region)[T.Le Sud-Ouest]",
+            "coef_2025": 0.16231357088326945,
+            "coef_2026": 0.163014729612375,
+            "delta": 0.000701158729105561,
+            "z_score": -0.008941139053335384,
+            "p_value": 0.9928660982455473,
+            "significant": false
+        }
+    ],
+    "shap_importance_drift": [
+        {
+            "feature": "bathrooms",
+            "importance_2025": 0.26002259257777793,
+            "importance_2026": 0.06732933064385224,
+            "delta": -0.1926932619339257
+        },
+        {
+            "feature": "units",
+            "importance_2025": 0.08760059749759505,
+            "importance_2026": 0.13050992637380066,
+            "delta": 0.042909328876205605
+        },
+        {
+            "feature": "log_area",
+            "importance_2025": 0.04983213952479903,
+            "importance_2026": 0.018718384997202193,
+            "delta": -0.031113754527596835
+        },
+        {
+            "feature": "bedrooms",
+            "importance_2025": 0.052559279989513104,
+            "importance_2026": 0.07447561128283328,
+            "delta": 0.021916331293320178
+        }
+    ]
+}
